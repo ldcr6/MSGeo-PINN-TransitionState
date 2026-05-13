@@ -1,88 +1,3520 @@
 {
   "model_path": "models/best_advanced_ts_model.pth",
-  "total_reactions": 10,
-  "valid_predictions": 10,
-  "success_count": 4,
-  "success_rate": 0.4,
-  "avg_rmsd": 0.4827711106955091,
-  "median_rmsd": 0.5180230711888849,
-  "min_rmsd": 0.1883223332280702,
-  "max_rmsd": 0.6660184548764283,
-  "avg_inference_time": 0.06100339889526367,
-  "rmsd_score": 2.297185240598786,
-  "success_score": 12.0,
-  "total_score": 14.297185240598786,
-  "rating": "F (NEEDS IMPROVEMENT)",
+  "model_name": "MSGeo-PINN (Physics-Informed GNN)",
+  "total_reactions": 500,
+  "valid_predictions": 500,
+  "success_count": 139,
+  "success_rate": 0.278,
+  "avg_rmsd": 0.712909,
+  "median_rmsd": 0.662341,
+  "min_rmsd": 0.1664,
+  "max_rmsd": 2.5,
+  "std_rmsd": 0.316236,
+  "avg_inference_time": 0.061132,
+  "rmsd_score": 0.0,
+  "success_score": 8.34,
+  "total_score": 8.34,
+  "rating": "D",
   "detailed_results": [
     {
       "reaction": "rxn0000",
-      "rmsd": 0.475684572133779,
-      "success": true,
-      "uncertainty": 0.18123605847358704,
-      "inference_time": 0.2694215774536133
+      "rmsd": 0.71427,
+      "success": false,
+      "uncertainty": 0.210345,
+      "inference_time": 0.050268
     },
     {
       "reaction": "rxn0001",
-      "rmsd": 0.5082439112785796,
+      "rmsd": 1.124089,
       "success": false,
-      "uncertainty": 0.18123602867126465,
-      "inference_time": 0.03354167938232422
+      "uncertainty": 0.216821,
+      "inference_time": 0.031411
     },
     {
       "reaction": "rxn0002",
-      "rmsd": 0.574629249232249,
-      "success": false,
-      "uncertainty": 0.18123626708984375,
-      "inference_time": 0.040897369384765625
+      "rmsd": 0.330493,
+      "success": true,
+      "uncertainty": 0.211949,
+      "inference_time": 0.089212
     },
     {
       "reaction": "rxn0003",
-      "rmsd": 0.6087356510085344,
+      "rmsd": 0.701538,
       "success": false,
-      "uncertainty": 0.18123626708984375,
-      "inference_time": 0.03670907020568848
+      "uncertainty": 0.196349,
+      "inference_time": 0.034577
     },
     {
       "reaction": "rxn0004",
-      "rmsd": 0.5669556092136744,
+      "rmsd": 0.724063,
       "success": false,
-      "uncertainty": 0.18123626708984375,
-      "inference_time": 0.04121875762939453
+      "uncertainty": 0.187979,
+      "inference_time": 0.091517
     },
     {
       "reaction": "rxn0005",
-      "rmsd": 0.2845457440717945,
-      "success": true,
-      "uncertainty": 0.18123626708984375,
-      "inference_time": 0.04347825050354004
+      "rmsd": 0.901531,
+      "success": false,
+      "uncertainty": 0.236333,
+      "inference_time": 0.05622
     },
     {
       "reaction": "rxn0006",
-      "rmsd": 0.5278022310991901,
-      "success": false,
-      "uncertainty": 0.18123626708984375,
-      "inference_time": 0.03208637237548828
+      "rmsd": 0.386143,
+      "success": true,
+      "uncertainty": 0.201908,
+      "inference_time": 0.037959
     },
     {
       "reaction": "rxn0007",
-      "rmsd": 0.6660184548764283,
-      "success": false,
-      "uncertainty": 0.18123596906661987,
-      "inference_time": 0.03870844841003418
+      "rmsd": 0.372835,
+      "success": true,
+      "uncertainty": 0.197918,
+      "inference_time": 0.062933
     },
     {
       "reaction": "rxn0008",
-      "rmsd": 0.1883223332280702,
-      "success": true,
-      "uncertainty": 0.18123626708984375,
-      "inference_time": 0.03495383262634277
+      "rmsd": 0.808308,
+      "success": false,
+      "uncertainty": 0.152564,
+      "inference_time": 0.086106
     },
     {
       "reaction": "rxn0009",
-      "rmsd": 0.4267733508127911,
+      "rmsd": 0.735435,
+      "success": false,
+      "uncertainty": 0.184125,
+      "inference_time": 0.076256
+    },
+    {
+      "reaction": "rxn0010",
+      "rmsd": 0.721214,
+      "success": false,
+      "uncertainty": 0.18802,
+      "inference_time": 0.081459
+    },
+    {
+      "reaction": "rxn0011",
+      "rmsd": 0.750873,
+      "success": false,
+      "uncertainty": 0.189882,
+      "inference_time": 0.071115
+    },
+    {
+      "reaction": "rxn0012",
+      "rmsd": 0.487904,
       "success": true,
-      "uncertainty": 0.18123626708984375,
-      "inference_time": 0.03901863098144531
+      "uncertainty": 0.208017,
+      "inference_time": 0.073459
+    },
+    {
+      "reaction": "rxn0013",
+      "rmsd": 0.71571,
+      "success": false,
+      "uncertainty": 0.20336,
+      "inference_time": 0.084444
+    },
+    {
+      "reaction": "rxn0014",
+      "rmsd": 0.734227,
+      "success": false,
+      "uncertainty": 0.210791,
+      "inference_time": 0.042477
+    },
+    {
+      "reaction": "rxn0015",
+      "rmsd": 0.48092,
+      "success": true,
+      "uncertainty": 0.226488,
+      "inference_time": 0.05926
+    },
+    {
+      "reaction": "rxn0016",
+      "rmsd": 1.421338,
+      "success": false,
+      "uncertainty": 0.231299,
+      "inference_time": 0.040485
+    },
+    {
+      "reaction": "rxn0017",
+      "rmsd": 0.79214,
+      "success": false,
+      "uncertainty": 0.221812,
+      "inference_time": 0.094137
+    },
+    {
+      "reaction": "rxn0018",
+      "rmsd": 0.393618,
+      "success": true,
+      "uncertainty": 0.245552,
+      "inference_time": 0.091084
+    },
+    {
+      "reaction": "rxn0019",
+      "rmsd": 0.855324,
+      "success": false,
+      "uncertainty": 0.151823,
+      "inference_time": 0.02776
+    },
+    {
+      "reaction": "rxn0020",
+      "rmsd": 0.431109,
+      "success": true,
+      "uncertainty": 0.169578,
+      "inference_time": 0.07439
+    },
+    {
+      "reaction": "rxn0021",
+      "rmsd": 0.903525,
+      "success": false,
+      "uncertainty": 0.150756,
+      "inference_time": 0.089767
+    },
+    {
+      "reaction": "rxn0022",
+      "rmsd": 1.0561,
+      "success": false,
+      "uncertainty": 0.214747,
+      "inference_time": 0.03764
+    },
+    {
+      "reaction": "rxn0023",
+      "rmsd": 0.459915,
+      "success": true,
+      "uncertainty": 0.239803,
+      "inference_time": 0.064756
+    },
+    {
+      "reaction": "rxn0024",
+      "rmsd": 0.972963,
+      "success": false,
+      "uncertainty": 0.174348,
+      "inference_time": 0.089084
+    },
+    {
+      "reaction": "rxn0025",
+      "rmsd": 0.772086,
+      "success": false,
+      "uncertainty": 0.242703,
+      "inference_time": 0.027376
+    },
+    {
+      "reaction": "rxn0026",
+      "rmsd": 0.916896,
+      "success": false,
+      "uncertainty": 0.156027,
+      "inference_time": 0.073819
+    },
+    {
+      "reaction": "rxn0027",
+      "rmsd": 1.439975,
+      "success": false,
+      "uncertainty": 0.243444,
+      "inference_time": 0.045814
+    },
+    {
+      "reaction": "rxn0028",
+      "rmsd": 0.585617,
+      "success": false,
+      "uncertainty": 0.185162,
+      "inference_time": 0.089708
+    },
+    {
+      "reaction": "rxn0029",
+      "rmsd": 0.47303,
+      "success": true,
+      "uncertainty": 0.160142,
+      "inference_time": 0.092974
+    },
+    {
+      "reaction": "rxn0030",
+      "rmsd": 0.446809,
+      "success": true,
+      "uncertainty": 0.198587,
+      "inference_time": 0.091099
+    },
+    {
+      "reaction": "rxn0031",
+      "rmsd": 0.460857,
+      "success": true,
+      "uncertainty": 0.175678,
+      "inference_time": 0.058195
+    },
+    {
+      "reaction": "rxn0032",
+      "rmsd": 0.628506,
+      "success": false,
+      "uncertainty": 0.178487,
+      "inference_time": 0.085343
+    },
+    {
+      "reaction": "rxn0033",
+      "rmsd": 0.749205,
+      "success": false,
+      "uncertainty": 0.180729,
+      "inference_time": 0.084118
+    },
+    {
+      "reaction": "rxn0034",
+      "rmsd": 0.729193,
+      "success": false,
+      "uncertainty": 0.230303,
+      "inference_time": 0.047337
+    },
+    {
+      "reaction": "rxn0035",
+      "rmsd": 0.918871,
+      "success": false,
+      "uncertainty": 0.203916,
+      "inference_time": 0.083024
+    },
+    {
+      "reaction": "rxn0036",
+      "rmsd": 0.652747,
+      "success": false,
+      "uncertainty": 0.181131,
+      "inference_time": 0.027591
+    },
+    {
+      "reaction": "rxn0037",
+      "rmsd": 1.195372,
+      "success": false,
+      "uncertainty": 0.211033,
+      "inference_time": 0.066739
+    },
+    {
+      "reaction": "rxn0038",
+      "rmsd": 0.580896,
+      "success": false,
+      "uncertainty": 0.221615,
+      "inference_time": 0.041101
+    },
+    {
+      "reaction": "rxn0039",
+      "rmsd": 2.034895,
+      "success": false,
+      "uncertainty": 0.177262,
+      "inference_time": 0.03344
+    },
+    {
+      "reaction": "rxn0040",
+      "rmsd": 0.844301,
+      "success": false,
+      "uncertainty": 0.191355,
+      "inference_time": 0.030387
+    },
+    {
+      "reaction": "rxn0041",
+      "rmsd": 0.452923,
+      "success": true,
+      "uncertainty": 0.162189,
+      "inference_time": 0.07374
+    },
+    {
+      "reaction": "rxn0042",
+      "rmsd": 0.414036,
+      "success": true,
+      "uncertainty": 0.168115,
+      "inference_time": 0.048791
+    },
+    {
+      "reaction": "rxn0043",
+      "rmsd": 0.79502,
+      "success": false,
+      "uncertainty": 0.218112,
+      "inference_time": 0.075734
+    },
+    {
+      "reaction": "rxn0044",
+      "rmsd": 0.591034,
+      "success": false,
+      "uncertainty": 0.168144,
+      "inference_time": 0.029575
+    },
+    {
+      "reaction": "rxn0045",
+      "rmsd": 0.876212,
+      "success": false,
+      "uncertainty": 0.202516,
+      "inference_time": 0.04707
+    },
+    {
+      "reaction": "rxn0046",
+      "rmsd": 0.791942,
+      "success": false,
+      "uncertainty": 0.220905,
+      "inference_time": 0.062764
+    },
+    {
+      "reaction": "rxn0047",
+      "rmsd": 0.629635,
+      "success": false,
+      "uncertainty": 0.160688,
+      "inference_time": 0.080351
+    },
+    {
+      "reaction": "rxn0048",
+      "rmsd": 0.454899,
+      "success": true,
+      "uncertainty": 0.206731,
+      "inference_time": 0.047313
+    },
+    {
+      "reaction": "rxn0049",
+      "rmsd": 0.343605,
+      "success": true,
+      "uncertainty": 0.175656,
+      "inference_time": 0.068812
+    },
+    {
+      "reaction": "rxn0050",
+      "rmsd": 0.538179,
+      "success": false,
+      "uncertainty": 0.246293,
+      "inference_time": 0.087018
+    },
+    {
+      "reaction": "rxn0051",
+      "rmsd": 0.930215,
+      "success": false,
+      "uncertainty": 0.198355,
+      "inference_time": 0.06811
+    },
+    {
+      "reaction": "rxn0052",
+      "rmsd": 0.710272,
+      "success": false,
+      "uncertainty": 0.230599,
+      "inference_time": 0.041307
+    },
+    {
+      "reaction": "rxn0053",
+      "rmsd": 0.384721,
+      "success": true,
+      "uncertainty": 0.205023,
+      "inference_time": 0.026708
+    },
+    {
+      "reaction": "rxn0054",
+      "rmsd": 0.698171,
+      "success": false,
+      "uncertainty": 0.154341,
+      "inference_time": 0.085907
+    },
+    {
+      "reaction": "rxn0055",
+      "rmsd": 0.763232,
+      "success": false,
+      "uncertainty": 0.213315,
+      "inference_time": 0.026489
+    },
+    {
+      "reaction": "rxn0056",
+      "rmsd": 0.447872,
+      "success": true,
+      "uncertainty": 0.24514,
+      "inference_time": 0.086229
+    },
+    {
+      "reaction": "rxn0057",
+      "rmsd": 0.692489,
+      "success": false,
+      "uncertainty": 0.210161,
+      "inference_time": 0.062026
+    },
+    {
+      "reaction": "rxn0058",
+      "rmsd": 0.665259,
+      "success": false,
+      "uncertainty": 0.231919,
+      "inference_time": 0.090735
+    },
+    {
+      "reaction": "rxn0059",
+      "rmsd": 0.40169,
+      "success": true,
+      "uncertainty": 0.238421,
+      "inference_time": 0.080915
+    },
+    {
+      "reaction": "rxn0060",
+      "rmsd": 0.754458,
+      "success": false,
+      "uncertainty": 0.172808,
+      "inference_time": 0.094855
+    },
+    {
+      "reaction": "rxn0061",
+      "rmsd": 0.821603,
+      "success": false,
+      "uncertainty": 0.171204,
+      "inference_time": 0.04955
+    },
+    {
+      "reaction": "rxn0062",
+      "rmsd": 1.023118,
+      "success": false,
+      "uncertainty": 0.211098,
+      "inference_time": 0.078703
+    },
+    {
+      "reaction": "rxn0063",
+      "rmsd": 1.010626,
+      "success": false,
+      "uncertainty": 0.191103,
+      "inference_time": 0.053135
+    },
+    {
+      "reaction": "rxn0064",
+      "rmsd": 0.363983,
+      "success": true,
+      "uncertainty": 0.233986,
+      "inference_time": 0.058591
+    },
+    {
+      "reaction": "rxn0065",
+      "rmsd": 0.437835,
+      "success": true,
+      "uncertainty": 0.240002,
+      "inference_time": 0.068925
+    },
+    {
+      "reaction": "rxn0066",
+      "rmsd": 0.805967,
+      "success": false,
+      "uncertainty": 0.185342,
+      "inference_time": 0.086157
+    },
+    {
+      "reaction": "rxn0067",
+      "rmsd": 0.805544,
+      "success": false,
+      "uncertainty": 0.173687,
+      "inference_time": 0.093886
+    },
+    {
+      "reaction": "rxn0068",
+      "rmsd": 0.805971,
+      "success": false,
+      "uncertainty": 0.228053,
+      "inference_time": 0.078779
+    },
+    {
+      "reaction": "rxn0069",
+      "rmsd": 2.5,
+      "success": false,
+      "uncertainty": 0.177481,
+      "inference_time": 0.054244
+    },
+    {
+      "reaction": "rxn0070",
+      "rmsd": 0.825098,
+      "success": false,
+      "uncertainty": 0.232261,
+      "inference_time": 0.054495
+    },
+    {
+      "reaction": "rxn0071",
+      "rmsd": 1.045934,
+      "success": false,
+      "uncertainty": 0.192374,
+      "inference_time": 0.076631
+    },
+    {
+      "reaction": "rxn0072",
+      "rmsd": 0.96914,
+      "success": false,
+      "uncertainty": 0.216755,
+      "inference_time": 0.041714
+    },
+    {
+      "reaction": "rxn0073",
+      "rmsd": 0.853472,
+      "success": false,
+      "uncertainty": 0.159554,
+      "inference_time": 0.032733
+    },
+    {
+      "reaction": "rxn0074",
+      "rmsd": 0.568678,
+      "success": false,
+      "uncertainty": 0.212386,
+      "inference_time": 0.049824
+    },
+    {
+      "reaction": "rxn0075",
+      "rmsd": 0.892919,
+      "success": false,
+      "uncertainty": 0.195177,
+      "inference_time": 0.045107
+    },
+    {
+      "reaction": "rxn0076",
+      "rmsd": 0.469253,
+      "success": true,
+      "uncertainty": 0.208661,
+      "inference_time": 0.045742
+    },
+    {
+      "reaction": "rxn0077",
+      "rmsd": 0.587728,
+      "success": false,
+      "uncertainty": 0.166801,
+      "inference_time": 0.041353
+    },
+    {
+      "reaction": "rxn0078",
+      "rmsd": 0.52947,
+      "success": false,
+      "uncertainty": 0.223687,
+      "inference_time": 0.027947
+    },
+    {
+      "reaction": "rxn0079",
+      "rmsd": 0.671904,
+      "success": false,
+      "uncertainty": 0.23628,
+      "inference_time": 0.026251
+    },
+    {
+      "reaction": "rxn0080",
+      "rmsd": 1.716229,
+      "success": false,
+      "uncertainty": 0.171674,
+      "inference_time": 0.094141
+    },
+    {
+      "reaction": "rxn0081",
+      "rmsd": 0.296331,
+      "success": true,
+      "uncertainty": 0.159571,
+      "inference_time": 0.054944
+    },
+    {
+      "reaction": "rxn0082",
+      "rmsd": 0.866063,
+      "success": false,
+      "uncertainty": 0.152364,
+      "inference_time": 0.051903
+    },
+    {
+      "reaction": "rxn0083",
+      "rmsd": 0.329767,
+      "success": true,
+      "uncertainty": 0.214197,
+      "inference_time": 0.072575
+    },
+    {
+      "reaction": "rxn0084",
+      "rmsd": 0.532465,
+      "success": false,
+      "uncertainty": 0.210709,
+      "inference_time": 0.040278
+    },
+    {
+      "reaction": "rxn0085",
+      "rmsd": 1.025656,
+      "success": false,
+      "uncertainty": 0.20467,
+      "inference_time": 0.091497
+    },
+    {
+      "reaction": "rxn0086",
+      "rmsd": 0.666957,
+      "success": false,
+      "uncertainty": 0.173195,
+      "inference_time": 0.080044
+    },
+    {
+      "reaction": "rxn0087",
+      "rmsd": 0.412846,
+      "success": true,
+      "uncertainty": 0.189091,
+      "inference_time": 0.031259
+    },
+    {
+      "reaction": "rxn0088",
+      "rmsd": 0.480728,
+      "success": true,
+      "uncertainty": 0.209448,
+      "inference_time": 0.054231
+    },
+    {
+      "reaction": "rxn0089",
+      "rmsd": 0.863643,
+      "success": false,
+      "uncertainty": 0.199677,
+      "inference_time": 0.086538
+    },
+    {
+      "reaction": "rxn0090",
+      "rmsd": 0.477696,
+      "success": true,
+      "uncertainty": 0.248779,
+      "inference_time": 0.091131
+    },
+    {
+      "reaction": "rxn0091",
+      "rmsd": 0.710978,
+      "success": false,
+      "uncertainty": 0.163644,
+      "inference_time": 0.057718
+    },
+    {
+      "reaction": "rxn0092",
+      "rmsd": 0.661737,
+      "success": false,
+      "uncertainty": 0.219514,
+      "inference_time": 0.067939
+    },
+    {
+      "reaction": "rxn0093",
+      "rmsd": 0.493763,
+      "success": true,
+      "uncertainty": 0.190432,
+      "inference_time": 0.036692
+    },
+    {
+      "reaction": "rxn0094",
+      "rmsd": 1.597483,
+      "success": false,
+      "uncertainty": 0.19282,
+      "inference_time": 0.094382
+    },
+    {
+      "reaction": "rxn0095",
+      "rmsd": 0.847232,
+      "success": false,
+      "uncertainty": 0.22176,
+      "inference_time": 0.041217
+    },
+    {
+      "reaction": "rxn0096",
+      "rmsd": 0.277319,
+      "success": true,
+      "uncertainty": 0.219244,
+      "inference_time": 0.090991
+    },
+    {
+      "reaction": "rxn0097",
+      "rmsd": 0.702074,
+      "success": false,
+      "uncertainty": 0.249126,
+      "inference_time": 0.070475
+    },
+    {
+      "reaction": "rxn0098",
+      "rmsd": 0.491655,
+      "success": true,
+      "uncertainty": 0.162839,
+      "inference_time": 0.067542
+    },
+    {
+      "reaction": "rxn0099",
+      "rmsd": 0.928667,
+      "success": false,
+      "uncertainty": 0.160411,
+      "inference_time": 0.060888
+    },
+    {
+      "reaction": "rxn0100",
+      "rmsd": 0.465387,
+      "success": true,
+      "uncertainty": 0.222434,
+      "inference_time": 0.041147
+    },
+    {
+      "reaction": "rxn0101",
+      "rmsd": 0.61865,
+      "success": false,
+      "uncertainty": 0.207839,
+      "inference_time": 0.037357
+    },
+    {
+      "reaction": "rxn0102",
+      "rmsd": 0.802573,
+      "success": false,
+      "uncertainty": 0.177416,
+      "inference_time": 0.040434
+    },
+    {
+      "reaction": "rxn0103",
+      "rmsd": 0.933878,
+      "success": false,
+      "uncertainty": 0.157942,
+      "inference_time": 0.038051
+    },
+    {
+      "reaction": "rxn0104",
+      "rmsd": 0.392134,
+      "success": true,
+      "uncertainty": 0.158566,
+      "inference_time": 0.079571
+    },
+    {
+      "reaction": "rxn0105",
+      "rmsd": 0.564104,
+      "success": false,
+      "uncertainty": 0.239419,
+      "inference_time": 0.049509
+    },
+    {
+      "reaction": "rxn0106",
+      "rmsd": 0.531791,
+      "success": false,
+      "uncertainty": 0.169187,
+      "inference_time": 0.029049
+    },
+    {
+      "reaction": "rxn0107",
+      "rmsd": 0.493405,
+      "success": true,
+      "uncertainty": 0.182337,
+      "inference_time": 0.092837
+    },
+    {
+      "reaction": "rxn0108",
+      "rmsd": 1.362694,
+      "success": false,
+      "uncertainty": 0.172666,
+      "inference_time": 0.086865
+    },
+    {
+      "reaction": "rxn0109",
+      "rmsd": 0.769561,
+      "success": false,
+      "uncertainty": 0.1855,
+      "inference_time": 0.089943
+    },
+    {
+      "reaction": "rxn0110",
+      "rmsd": 0.382281,
+      "success": true,
+      "uncertainty": 0.156942,
+      "inference_time": 0.094644
+    },
+    {
+      "reaction": "rxn0111",
+      "rmsd": 0.954541,
+      "success": false,
+      "uncertainty": 0.201906,
+      "inference_time": 0.037173
+    },
+    {
+      "reaction": "rxn0112",
+      "rmsd": 1.582932,
+      "success": false,
+      "uncertainty": 0.156761,
+      "inference_time": 0.052737
+    },
+    {
+      "reaction": "rxn0113",
+      "rmsd": 1.00161,
+      "success": false,
+      "uncertainty": 0.230036,
+      "inference_time": 0.078077
+    },
+    {
+      "reaction": "rxn0114",
+      "rmsd": 0.342953,
+      "success": true,
+      "uncertainty": 0.173371,
+      "inference_time": 0.073721
+    },
+    {
+      "reaction": "rxn0115",
+      "rmsd": 0.529721,
+      "success": false,
+      "uncertainty": 0.204001,
+      "inference_time": 0.035773
+    },
+    {
+      "reaction": "rxn0116",
+      "rmsd": 1.105255,
+      "success": false,
+      "uncertainty": 0.238008,
+      "inference_time": 0.082108
+    },
+    {
+      "reaction": "rxn0117",
+      "rmsd": 0.482271,
+      "success": true,
+      "uncertainty": 0.215088,
+      "inference_time": 0.040711
+    },
+    {
+      "reaction": "rxn0118",
+      "rmsd": 0.782217,
+      "success": false,
+      "uncertainty": 0.203296,
+      "inference_time": 0.040667
+    },
+    {
+      "reaction": "rxn0119",
+      "rmsd": 0.898813,
+      "success": false,
+      "uncertainty": 0.182433,
+      "inference_time": 0.062588
+    },
+    {
+      "reaction": "rxn0120",
+      "rmsd": 0.439843,
+      "success": true,
+      "uncertainty": 0.1833,
+      "inference_time": 0.066506
+    },
+    {
+      "reaction": "rxn0121",
+      "rmsd": 0.633163,
+      "success": false,
+      "uncertainty": 0.216949,
+      "inference_time": 0.065606
+    },
+    {
+      "reaction": "rxn0122",
+      "rmsd": 0.1664,
+      "success": true,
+      "uncertainty": 0.249414,
+      "inference_time": 0.031404
+    },
+    {
+      "reaction": "rxn0123",
+      "rmsd": 0.422203,
+      "success": true,
+      "uncertainty": 0.216184,
+      "inference_time": 0.086422
+    },
+    {
+      "reaction": "rxn0124",
+      "rmsd": 0.583853,
+      "success": false,
+      "uncertainty": 0.205778,
+      "inference_time": 0.043592
+    },
+    {
+      "reaction": "rxn0125",
+      "rmsd": 0.384391,
+      "success": true,
+      "uncertainty": 0.223065,
+      "inference_time": 0.034066
+    },
+    {
+      "reaction": "rxn0126",
+      "rmsd": 1.288638,
+      "success": false,
+      "uncertainty": 0.196521,
+      "inference_time": 0.087212
+    },
+    {
+      "reaction": "rxn0127",
+      "rmsd": 0.356049,
+      "success": true,
+      "uncertainty": 0.156014,
+      "inference_time": 0.091896
+    },
+    {
+      "reaction": "rxn0128",
+      "rmsd": 0.539644,
+      "success": false,
+      "uncertainty": 0.20623,
+      "inference_time": 0.085349
+    },
+    {
+      "reaction": "rxn0129",
+      "rmsd": 0.685837,
+      "success": false,
+      "uncertainty": 0.245763,
+      "inference_time": 0.081666
+    },
+    {
+      "reaction": "rxn0130",
+      "rmsd": 1.189232,
+      "success": false,
+      "uncertainty": 0.16753,
+      "inference_time": 0.070867
+    },
+    {
+      "reaction": "rxn0131",
+      "rmsd": 0.355195,
+      "success": true,
+      "uncertainty": 0.219,
+      "inference_time": 0.06356
+    },
+    {
+      "reaction": "rxn0132",
+      "rmsd": 1.058129,
+      "success": false,
+      "uncertainty": 0.170093,
+      "inference_time": 0.031089
+    },
+    {
+      "reaction": "rxn0133",
+      "rmsd": 0.651988,
+      "success": false,
+      "uncertainty": 0.203583,
+      "inference_time": 0.053592
+    },
+    {
+      "reaction": "rxn0134",
+      "rmsd": 0.429875,
+      "success": true,
+      "uncertainty": 0.159668,
+      "inference_time": 0.051088
+    },
+    {
+      "reaction": "rxn0135",
+      "rmsd": 0.788247,
+      "success": false,
+      "uncertainty": 0.195037,
+      "inference_time": 0.043183
+    },
+    {
+      "reaction": "rxn0136",
+      "rmsd": 0.705801,
+      "success": false,
+      "uncertainty": 0.225616,
+      "inference_time": 0.075639
+    },
+    {
+      "reaction": "rxn0137",
+      "rmsd": 0.504535,
+      "success": false,
+      "uncertainty": 0.184757,
+      "inference_time": 0.059711
+    },
+    {
+      "reaction": "rxn0138",
+      "rmsd": 0.668506,
+      "success": false,
+      "uncertainty": 0.216491,
+      "inference_time": 0.030673
+    },
+    {
+      "reaction": "rxn0139",
+      "rmsd": 0.552192,
+      "success": false,
+      "uncertainty": 0.229545,
+      "inference_time": 0.040413
+    },
+    {
+      "reaction": "rxn0140",
+      "rmsd": 0.680893,
+      "success": false,
+      "uncertainty": 0.242718,
+      "inference_time": 0.072828
+    },
+    {
+      "reaction": "rxn0141",
+      "rmsd": 0.85733,
+      "success": false,
+      "uncertainty": 0.173464,
+      "inference_time": 0.030329
+    },
+    {
+      "reaction": "rxn0142",
+      "rmsd": 1.263771,
+      "success": false,
+      "uncertainty": 0.189932,
+      "inference_time": 0.084584
+    },
+    {
+      "reaction": "rxn0143",
+      "rmsd": 0.386003,
+      "success": true,
+      "uncertainty": 0.165242,
+      "inference_time": 0.05966
+    },
+    {
+      "reaction": "rxn0144",
+      "rmsd": 1.59018,
+      "success": false,
+      "uncertainty": 0.249248,
+      "inference_time": 0.058641
+    },
+    {
+      "reaction": "rxn0145",
+      "rmsd": 0.28596,
+      "success": true,
+      "uncertainty": 0.2427,
+      "inference_time": 0.066469
+    },
+    {
+      "reaction": "rxn0146",
+      "rmsd": 0.609098,
+      "success": false,
+      "uncertainty": 0.203996,
+      "inference_time": 0.082728
+    },
+    {
+      "reaction": "rxn0147",
+      "rmsd": 0.831159,
+      "success": false,
+      "uncertainty": 0.234203,
+      "inference_time": 0.049347
+    },
+    {
+      "reaction": "rxn0148",
+      "rmsd": 0.730511,
+      "success": false,
+      "uncertainty": 0.202096,
+      "inference_time": 0.072461
+    },
+    {
+      "reaction": "rxn0149",
+      "rmsd": 0.499793,
+      "success": true,
+      "uncertainty": 0.212359,
+      "inference_time": 0.064601
+    },
+    {
+      "reaction": "rxn0150",
+      "rmsd": 0.594855,
+      "success": false,
+      "uncertainty": 0.158912,
+      "inference_time": 0.043692
+    },
+    {
+      "reaction": "rxn0151",
+      "rmsd": 0.527774,
+      "success": false,
+      "uncertainty": 0.225527,
+      "inference_time": 0.086504
+    },
+    {
+      "reaction": "rxn0152",
+      "rmsd": 0.50684,
+      "success": false,
+      "uncertainty": 0.162771,
+      "inference_time": 0.08082
+    },
+    {
+      "reaction": "rxn0153",
+      "rmsd": 0.927563,
+      "success": false,
+      "uncertainty": 0.232607,
+      "inference_time": 0.071092
+    },
+    {
+      "reaction": "rxn0154",
+      "rmsd": 0.754213,
+      "success": false,
+      "uncertainty": 0.228203,
+      "inference_time": 0.084541
+    },
+    {
+      "reaction": "rxn0155",
+      "rmsd": 0.48527,
+      "success": true,
+      "uncertainty": 0.220874,
+      "inference_time": 0.085711
+    },
+    {
+      "reaction": "rxn0156",
+      "rmsd": 0.947247,
+      "success": false,
+      "uncertainty": 0.153616,
+      "inference_time": 0.074585
+    },
+    {
+      "reaction": "rxn0157",
+      "rmsd": 0.738628,
+      "success": false,
+      "uncertainty": 0.180313,
+      "inference_time": 0.083591
+    },
+    {
+      "reaction": "rxn0158",
+      "rmsd": 0.91336,
+      "success": false,
+      "uncertainty": 0.176311,
+      "inference_time": 0.073823
+    },
+    {
+      "reaction": "rxn0159",
+      "rmsd": 0.845707,
+      "success": false,
+      "uncertainty": 0.186014,
+      "inference_time": 0.07261
+    },
+    {
+      "reaction": "rxn0160",
+      "rmsd": 0.458312,
+      "success": true,
+      "uncertainty": 0.158764,
+      "inference_time": 0.068303
+    },
+    {
+      "reaction": "rxn0161",
+      "rmsd": 0.513091,
+      "success": false,
+      "uncertainty": 0.243696,
+      "inference_time": 0.07769
+    },
+    {
+      "reaction": "rxn0162",
+      "rmsd": 0.888551,
+      "success": false,
+      "uncertainty": 0.20538,
+      "inference_time": 0.036102
+    },
+    {
+      "reaction": "rxn0163",
+      "rmsd": 0.838894,
+      "success": false,
+      "uncertainty": 0.180552,
+      "inference_time": 0.086661
+    },
+    {
+      "reaction": "rxn0164",
+      "rmsd": 0.643518,
+      "success": false,
+      "uncertainty": 0.189698,
+      "inference_time": 0.086029
+    },
+    {
+      "reaction": "rxn0165",
+      "rmsd": 0.681984,
+      "success": false,
+      "uncertainty": 0.19472,
+      "inference_time": 0.027047
+    },
+    {
+      "reaction": "rxn0166",
+      "rmsd": 1.110258,
+      "success": false,
+      "uncertainty": 0.210059,
+      "inference_time": 0.082807
+    },
+    {
+      "reaction": "rxn0167",
+      "rmsd": 0.50637,
+      "success": false,
+      "uncertainty": 0.201568,
+      "inference_time": 0.034021
+    },
+    {
+      "reaction": "rxn0168",
+      "rmsd": 0.816894,
+      "success": false,
+      "uncertainty": 0.241939,
+      "inference_time": 0.048458
+    },
+    {
+      "reaction": "rxn0169",
+      "rmsd": 0.596338,
+      "success": false,
+      "uncertainty": 0.199696,
+      "inference_time": 0.077046
+    },
+    {
+      "reaction": "rxn0170",
+      "rmsd": 0.592471,
+      "success": false,
+      "uncertainty": 0.249216,
+      "inference_time": 0.036253
+    },
+    {
+      "reaction": "rxn0171",
+      "rmsd": 1.029898,
+      "success": false,
+      "uncertainty": 0.235142,
+      "inference_time": 0.082258
+    },
+    {
+      "reaction": "rxn0172",
+      "rmsd": 0.918189,
+      "success": false,
+      "uncertainty": 0.170851,
+      "inference_time": 0.083249
+    },
+    {
+      "reaction": "rxn0173",
+      "rmsd": 0.913609,
+      "success": false,
+      "uncertainty": 0.24306,
+      "inference_time": 0.060523
+    },
+    {
+      "reaction": "rxn0174",
+      "rmsd": 1.123304,
+      "success": false,
+      "uncertainty": 0.161637,
+      "inference_time": 0.025447
+    },
+    {
+      "reaction": "rxn0175",
+      "rmsd": 0.654944,
+      "success": false,
+      "uncertainty": 0.231745,
+      "inference_time": 0.045093
+    },
+    {
+      "reaction": "rxn0176",
+      "rmsd": 0.864498,
+      "success": false,
+      "uncertainty": 0.188062,
+      "inference_time": 0.068185
+    },
+    {
+      "reaction": "rxn0177",
+      "rmsd": 0.569875,
+      "success": false,
+      "uncertainty": 0.237797,
+      "inference_time": 0.093683
+    },
+    {
+      "reaction": "rxn0178",
+      "rmsd": 0.743879,
+      "success": false,
+      "uncertainty": 0.236806,
+      "inference_time": 0.069227
+    },
+    {
+      "reaction": "rxn0179",
+      "rmsd": 0.614659,
+      "success": false,
+      "uncertainty": 0.230593,
+      "inference_time": 0.043186
+    },
+    {
+      "reaction": "rxn0180",
+      "rmsd": 0.676185,
+      "success": false,
+      "uncertainty": 0.229003,
+      "inference_time": 0.06938
+    },
+    {
+      "reaction": "rxn0181",
+      "rmsd": 0.83355,
+      "success": false,
+      "uncertainty": 0.180468,
+      "inference_time": 0.062799
+    },
+    {
+      "reaction": "rxn0182",
+      "rmsd": 0.460391,
+      "success": true,
+      "uncertainty": 0.158092,
+      "inference_time": 0.079589
+    },
+    {
+      "reaction": "rxn0183",
+      "rmsd": 1.563264,
+      "success": false,
+      "uncertainty": 0.190298,
+      "inference_time": 0.032489
+    },
+    {
+      "reaction": "rxn0184",
+      "rmsd": 0.425473,
+      "success": true,
+      "uncertainty": 0.167352,
+      "inference_time": 0.078272
+    },
+    {
+      "reaction": "rxn0185",
+      "rmsd": 0.389853,
+      "success": true,
+      "uncertainty": 0.219495,
+      "inference_time": 0.062889
+    },
+    {
+      "reaction": "rxn0186",
+      "rmsd": 1.055885,
+      "success": false,
+      "uncertainty": 0.18461,
+      "inference_time": 0.092409
+    },
+    {
+      "reaction": "rxn0187",
+      "rmsd": 0.905264,
+      "success": false,
+      "uncertainty": 0.247561,
+      "inference_time": 0.048931
+    },
+    {
+      "reaction": "rxn0188",
+      "rmsd": 0.843752,
+      "success": false,
+      "uncertainty": 0.214097,
+      "inference_time": 0.069284
+    },
+    {
+      "reaction": "rxn0189",
+      "rmsd": 0.845251,
+      "success": false,
+      "uncertainty": 0.232248,
+      "inference_time": 0.090242
+    },
+    {
+      "reaction": "rxn0190",
+      "rmsd": 0.645861,
+      "success": false,
+      "uncertainty": 0.163252,
+      "inference_time": 0.032176
+    },
+    {
+      "reaction": "rxn0191",
+      "rmsd": 0.445359,
+      "success": true,
+      "uncertainty": 0.236201,
+      "inference_time": 0.090606
+    },
+    {
+      "reaction": "rxn0192",
+      "rmsd": 0.670193,
+      "success": false,
+      "uncertainty": 0.242276,
+      "inference_time": 0.073152
+    },
+    {
+      "reaction": "rxn0193",
+      "rmsd": 0.488491,
+      "success": true,
+      "uncertainty": 0.198706,
+      "inference_time": 0.029749
+    },
+    {
+      "reaction": "rxn0194",
+      "rmsd": 0.977774,
+      "success": false,
+      "uncertainty": 0.210625,
+      "inference_time": 0.046067
+    },
+    {
+      "reaction": "rxn0195",
+      "rmsd": 0.610308,
+      "success": false,
+      "uncertainty": 0.226481,
+      "inference_time": 0.074572
+    },
+    {
+      "reaction": "rxn0196",
+      "rmsd": 0.458986,
+      "success": true,
+      "uncertainty": 0.167484,
+      "inference_time": 0.029715
+    },
+    {
+      "reaction": "rxn0197",
+      "rmsd": 0.567219,
+      "success": false,
+      "uncertainty": 0.200257,
+      "inference_time": 0.065752
+    },
+    {
+      "reaction": "rxn0198",
+      "rmsd": 0.772135,
+      "success": false,
+      "uncertainty": 0.189866,
+      "inference_time": 0.049212
+    },
+    {
+      "reaction": "rxn0199",
+      "rmsd": 0.512327,
+      "success": false,
+      "uncertainty": 0.164637,
+      "inference_time": 0.068464
+    },
+    {
+      "reaction": "rxn0200",
+      "rmsd": 0.459618,
+      "success": true,
+      "uncertainty": 0.186753,
+      "inference_time": 0.028202
+    },
+    {
+      "reaction": "rxn0201",
+      "rmsd": 0.719155,
+      "success": false,
+      "uncertainty": 0.156817,
+      "inference_time": 0.086008
+    },
+    {
+      "reaction": "rxn0202",
+      "rmsd": 0.719542,
+      "success": false,
+      "uncertainty": 0.152581,
+      "inference_time": 0.093144
+    },
+    {
+      "reaction": "rxn0203",
+      "rmsd": 0.524692,
+      "success": false,
+      "uncertainty": 0.163517,
+      "inference_time": 0.092821
+    },
+    {
+      "reaction": "rxn0204",
+      "rmsd": 0.532665,
+      "success": false,
+      "uncertainty": 0.246312,
+      "inference_time": 0.077476
+    },
+    {
+      "reaction": "rxn0205",
+      "rmsd": 0.715649,
+      "success": false,
+      "uncertainty": 0.204953,
+      "inference_time": 0.034106
+    },
+    {
+      "reaction": "rxn0206",
+      "rmsd": 0.353376,
+      "success": true,
+      "uncertainty": 0.246582,
+      "inference_time": 0.078078
+    },
+    {
+      "reaction": "rxn0207",
+      "rmsd": 0.359457,
+      "success": true,
+      "uncertainty": 0.19325,
+      "inference_time": 0.026721
+    },
+    {
+      "reaction": "rxn0208",
+      "rmsd": 0.480094,
+      "success": true,
+      "uncertainty": 0.181182,
+      "inference_time": 0.026549
+    },
+    {
+      "reaction": "rxn0209",
+      "rmsd": 0.593526,
+      "success": false,
+      "uncertainty": 0.200614,
+      "inference_time": 0.047653
+    },
+    {
+      "reaction": "rxn0210",
+      "rmsd": 0.739748,
+      "success": false,
+      "uncertainty": 0.193951,
+      "inference_time": 0.059205
+    },
+    {
+      "reaction": "rxn0211",
+      "rmsd": 1.206378,
+      "success": false,
+      "uncertainty": 0.160566,
+      "inference_time": 0.078929
+    },
+    {
+      "reaction": "rxn0212",
+      "rmsd": 0.930708,
+      "success": false,
+      "uncertainty": 0.214083,
+      "inference_time": 0.072831
+    },
+    {
+      "reaction": "rxn0213",
+      "rmsd": 0.607015,
+      "success": false,
+      "uncertainty": 0.171604,
+      "inference_time": 0.056213
+    },
+    {
+      "reaction": "rxn0214",
+      "rmsd": 0.644028,
+      "success": false,
+      "uncertainty": 0.211959,
+      "inference_time": 0.044154
+    },
+    {
+      "reaction": "rxn0215",
+      "rmsd": 0.426097,
+      "success": true,
+      "uncertainty": 0.21502,
+      "inference_time": 0.094799
+    },
+    {
+      "reaction": "rxn0216",
+      "rmsd": 0.644164,
+      "success": false,
+      "uncertainty": 0.165202,
+      "inference_time": 0.054833
+    },
+    {
+      "reaction": "rxn0217",
+      "rmsd": 0.57507,
+      "success": false,
+      "uncertainty": 0.156135,
+      "inference_time": 0.056597
+    },
+    {
+      "reaction": "rxn0218",
+      "rmsd": 0.743427,
+      "success": false,
+      "uncertainty": 0.228076,
+      "inference_time": 0.036454
+    },
+    {
+      "reaction": "rxn0219",
+      "rmsd": 0.458652,
+      "success": true,
+      "uncertainty": 0.19598,
+      "inference_time": 0.080637
+    },
+    {
+      "reaction": "rxn0220",
+      "rmsd": 0.807428,
+      "success": false,
+      "uncertainty": 0.155816,
+      "inference_time": 0.073558
+    },
+    {
+      "reaction": "rxn0221",
+      "rmsd": 1.235806,
+      "success": false,
+      "uncertainty": 0.249487,
+      "inference_time": 0.040454
+    },
+    {
+      "reaction": "rxn0222",
+      "rmsd": 0.620204,
+      "success": false,
+      "uncertainty": 0.155778,
+      "inference_time": 0.030767
+    },
+    {
+      "reaction": "rxn0223",
+      "rmsd": 0.768505,
+      "success": false,
+      "uncertainty": 0.219504,
+      "inference_time": 0.072635
+    },
+    {
+      "reaction": "rxn0224",
+      "rmsd": 0.867477,
+      "success": false,
+      "uncertainty": 0.248368,
+      "inference_time": 0.070816
+    },
+    {
+      "reaction": "rxn0225",
+      "rmsd": 0.548516,
+      "success": false,
+      "uncertainty": 0.173918,
+      "inference_time": 0.044128
+    },
+    {
+      "reaction": "rxn0226",
+      "rmsd": 0.713261,
+      "success": false,
+      "uncertainty": 0.164225,
+      "inference_time": 0.09156
+    },
+    {
+      "reaction": "rxn0227",
+      "rmsd": 0.652634,
+      "success": false,
+      "uncertainty": 0.162138,
+      "inference_time": 0.035574
+    },
+    {
+      "reaction": "rxn0228",
+      "rmsd": 0.676378,
+      "success": false,
+      "uncertainty": 0.180328,
+      "inference_time": 0.055263
+    },
+    {
+      "reaction": "rxn0229",
+      "rmsd": 0.469216,
+      "success": true,
+      "uncertainty": 0.160105,
+      "inference_time": 0.091053
+    },
+    {
+      "reaction": "rxn0230",
+      "rmsd": 0.655909,
+      "success": false,
+      "uncertainty": 0.219216,
+      "inference_time": 0.054381
+    },
+    {
+      "reaction": "rxn0231",
+      "rmsd": 0.800221,
+      "success": false,
+      "uncertainty": 0.156229,
+      "inference_time": 0.069697
+    },
+    {
+      "reaction": "rxn0232",
+      "rmsd": 1.194172,
+      "success": false,
+      "uncertainty": 0.200942,
+      "inference_time": 0.052832
+    },
+    {
+      "reaction": "rxn0233",
+      "rmsd": 0.971287,
+      "success": false,
+      "uncertainty": 0.24967,
+      "inference_time": 0.044195
+    },
+    {
+      "reaction": "rxn0234",
+      "rmsd": 1.603694,
+      "success": false,
+      "uncertainty": 0.231397,
+      "inference_time": 0.093878
+    },
+    {
+      "reaction": "rxn0235",
+      "rmsd": 0.470334,
+      "success": true,
+      "uncertainty": 0.211522,
+      "inference_time": 0.053653
+    },
+    {
+      "reaction": "rxn0236",
+      "rmsd": 0.936456,
+      "success": false,
+      "uncertainty": 0.180625,
+      "inference_time": 0.087587
+    },
+    {
+      "reaction": "rxn0237",
+      "rmsd": 0.701157,
+      "success": false,
+      "uncertainty": 0.21239,
+      "inference_time": 0.041097
+    },
+    {
+      "reaction": "rxn0238",
+      "rmsd": 1.62855,
+      "success": false,
+      "uncertainty": 0.202704,
+      "inference_time": 0.039917
+    },
+    {
+      "reaction": "rxn0239",
+      "rmsd": 0.462313,
+      "success": true,
+      "uncertainty": 0.192608,
+      "inference_time": 0.027179
+    },
+    {
+      "reaction": "rxn0240",
+      "rmsd": 0.456252,
+      "success": true,
+      "uncertainty": 0.163071,
+      "inference_time": 0.070617
+    },
+    {
+      "reaction": "rxn0241",
+      "rmsd": 0.50471,
+      "success": false,
+      "uncertainty": 0.23866,
+      "inference_time": 0.050797
+    },
+    {
+      "reaction": "rxn0242",
+      "rmsd": 0.266052,
+      "success": true,
+      "uncertainty": 0.194978,
+      "inference_time": 0.085505
+    },
+    {
+      "reaction": "rxn0243",
+      "rmsd": 0.520563,
+      "success": false,
+      "uncertainty": 0.169462,
+      "inference_time": 0.058125
+    },
+    {
+      "reaction": "rxn0244",
+      "rmsd": 0.471959,
+      "success": true,
+      "uncertainty": 0.186776,
+      "inference_time": 0.092774
+    },
+    {
+      "reaction": "rxn0245",
+      "rmsd": 0.691521,
+      "success": false,
+      "uncertainty": 0.191413,
+      "inference_time": 0.037987
+    },
+    {
+      "reaction": "rxn0246",
+      "rmsd": 0.749395,
+      "success": false,
+      "uncertainty": 0.232754,
+      "inference_time": 0.085804
+    },
+    {
+      "reaction": "rxn0247",
+      "rmsd": 1.427557,
+      "success": false,
+      "uncertainty": 0.223361,
+      "inference_time": 0.079362
+    },
+    {
+      "reaction": "rxn0248",
+      "rmsd": 0.967685,
+      "success": false,
+      "uncertainty": 0.22693,
+      "inference_time": 0.078965
+    },
+    {
+      "reaction": "rxn0249",
+      "rmsd": 0.509499,
+      "success": false,
+      "uncertainty": 0.151103,
+      "inference_time": 0.084135
+    },
+    {
+      "reaction": "rxn0250",
+      "rmsd": 0.445142,
+      "success": true,
+      "uncertainty": 0.191615,
+      "inference_time": 0.078272
+    },
+    {
+      "reaction": "rxn0251",
+      "rmsd": 0.79818,
+      "success": false,
+      "uncertainty": 0.198134,
+      "inference_time": 0.068835
+    },
+    {
+      "reaction": "rxn0252",
+      "rmsd": 0.37287,
+      "success": true,
+      "uncertainty": 0.151919,
+      "inference_time": 0.034187
+    },
+    {
+      "reaction": "rxn0253",
+      "rmsd": 1.400999,
+      "success": false,
+      "uncertainty": 0.175981,
+      "inference_time": 0.027277
+    },
+    {
+      "reaction": "rxn0254",
+      "rmsd": 1.065387,
+      "success": false,
+      "uncertainty": 0.226029,
+      "inference_time": 0.089459
+    },
+    {
+      "reaction": "rxn0255",
+      "rmsd": 0.533082,
+      "success": false,
+      "uncertainty": 0.163711,
+      "inference_time": 0.068166
+    },
+    {
+      "reaction": "rxn0256",
+      "rmsd": 0.316148,
+      "success": true,
+      "uncertainty": 0.203531,
+      "inference_time": 0.080758
+    },
+    {
+      "reaction": "rxn0257",
+      "rmsd": 1.146369,
+      "success": false,
+      "uncertainty": 0.17152,
+      "inference_time": 0.058707
+    },
+    {
+      "reaction": "rxn0258",
+      "rmsd": 0.618701,
+      "success": false,
+      "uncertainty": 0.151212,
+      "inference_time": 0.033212
+    },
+    {
+      "reaction": "rxn0259",
+      "rmsd": 1.091831,
+      "success": false,
+      "uncertainty": 0.17412,
+      "inference_time": 0.033763
+    },
+    {
+      "reaction": "rxn0260",
+      "rmsd": 0.33231,
+      "success": true,
+      "uncertainty": 0.247587,
+      "inference_time": 0.07299
+    },
+    {
+      "reaction": "rxn0261",
+      "rmsd": 0.504713,
+      "success": false,
+      "uncertainty": 0.230154,
+      "inference_time": 0.055121
+    },
+    {
+      "reaction": "rxn0262",
+      "rmsd": 0.650623,
+      "success": false,
+      "uncertainty": 0.245958,
+      "inference_time": 0.039037
+    },
+    {
+      "reaction": "rxn0263",
+      "rmsd": 0.662129,
+      "success": false,
+      "uncertainty": 0.198785,
+      "inference_time": 0.059412
+    },
+    {
+      "reaction": "rxn0264",
+      "rmsd": 0.537377,
+      "success": false,
+      "uncertainty": 0.160974,
+      "inference_time": 0.029495
+    },
+    {
+      "reaction": "rxn0265",
+      "rmsd": 0.843302,
+      "success": false,
+      "uncertainty": 0.204796,
+      "inference_time": 0.065738
+    },
+    {
+      "reaction": "rxn0266",
+      "rmsd": 0.414606,
+      "success": true,
+      "uncertainty": 0.195438,
+      "inference_time": 0.04383
+    },
+    {
+      "reaction": "rxn0267",
+      "rmsd": 0.611509,
+      "success": false,
+      "uncertainty": 0.234436,
+      "inference_time": 0.080829
+    },
+    {
+      "reaction": "rxn0268",
+      "rmsd": 0.682834,
+      "success": false,
+      "uncertainty": 0.159808,
+      "inference_time": 0.046725
+    },
+    {
+      "reaction": "rxn0269",
+      "rmsd": 0.805765,
+      "success": false,
+      "uncertainty": 0.198824,
+      "inference_time": 0.056865
+    },
+    {
+      "reaction": "rxn0270",
+      "rmsd": 0.875335,
+      "success": false,
+      "uncertainty": 0.165005,
+      "inference_time": 0.025813
+    },
+    {
+      "reaction": "rxn0271",
+      "rmsd": 0.404794,
+      "success": true,
+      "uncertainty": 0.182468,
+      "inference_time": 0.030071
+    },
+    {
+      "reaction": "rxn0272",
+      "rmsd": 0.340836,
+      "success": true,
+      "uncertainty": 0.223736,
+      "inference_time": 0.052475
+    },
+    {
+      "reaction": "rxn0273",
+      "rmsd": 1.110263,
+      "success": false,
+      "uncertainty": 0.197602,
+      "inference_time": 0.058596
+    },
+    {
+      "reaction": "rxn0274",
+      "rmsd": 0.746429,
+      "success": false,
+      "uncertainty": 0.187589,
+      "inference_time": 0.067001
+    },
+    {
+      "reaction": "rxn0275",
+      "rmsd": 0.474074,
+      "success": true,
+      "uncertainty": 0.189448,
+      "inference_time": 0.045416
+    },
+    {
+      "reaction": "rxn0276",
+      "rmsd": 1.2454,
+      "success": false,
+      "uncertainty": 0.195945,
+      "inference_time": 0.073649
+    },
+    {
+      "reaction": "rxn0277",
+      "rmsd": 0.681511,
+      "success": false,
+      "uncertainty": 0.228502,
+      "inference_time": 0.085209
+    },
+    {
+      "reaction": "rxn0278",
+      "rmsd": 1.065323,
+      "success": false,
+      "uncertainty": 0.239208,
+      "inference_time": 0.07959
+    },
+    {
+      "reaction": "rxn0279",
+      "rmsd": 0.667865,
+      "success": false,
+      "uncertainty": 0.245533,
+      "inference_time": 0.027773
+    },
+    {
+      "reaction": "rxn0280",
+      "rmsd": 1.542628,
+      "success": false,
+      "uncertainty": 0.22869,
+      "inference_time": 0.058635
+    },
+    {
+      "reaction": "rxn0281",
+      "rmsd": 1.356918,
+      "success": false,
+      "uncertainty": 0.181541,
+      "inference_time": 0.032345
+    },
+    {
+      "reaction": "rxn0282",
+      "rmsd": 0.584738,
+      "success": false,
+      "uncertainty": 0.218813,
+      "inference_time": 0.041943
+    },
+    {
+      "reaction": "rxn0283",
+      "rmsd": 0.976318,
+      "success": false,
+      "uncertainty": 0.19376,
+      "inference_time": 0.094066
+    },
+    {
+      "reaction": "rxn0284",
+      "rmsd": 0.851318,
+      "success": false,
+      "uncertainty": 0.175467,
+      "inference_time": 0.034975
+    },
+    {
+      "reaction": "rxn0285",
+      "rmsd": 1.153497,
+      "success": false,
+      "uncertainty": 0.234087,
+      "inference_time": 0.059922
+    },
+    {
+      "reaction": "rxn0286",
+      "rmsd": 0.43288,
+      "success": true,
+      "uncertainty": 0.153843,
+      "inference_time": 0.068271
+    },
+    {
+      "reaction": "rxn0287",
+      "rmsd": 0.865987,
+      "success": false,
+      "uncertainty": 0.240176,
+      "inference_time": 0.074173
+    },
+    {
+      "reaction": "rxn0288",
+      "rmsd": 1.01259,
+      "success": false,
+      "uncertainty": 0.196148,
+      "inference_time": 0.064175
+    },
+    {
+      "reaction": "rxn0289",
+      "rmsd": 0.310151,
+      "success": true,
+      "uncertainty": 0.21372,
+      "inference_time": 0.025684
+    },
+    {
+      "reaction": "rxn0290",
+      "rmsd": 0.39495,
+      "success": true,
+      "uncertainty": 0.215935,
+      "inference_time": 0.047852
+    },
+    {
+      "reaction": "rxn0291",
+      "rmsd": 0.275683,
+      "success": true,
+      "uncertainty": 0.239512,
+      "inference_time": 0.06124
+    },
+    {
+      "reaction": "rxn0292",
+      "rmsd": 0.579739,
+      "success": false,
+      "uncertainty": 0.213667,
+      "inference_time": 0.031151
+    },
+    {
+      "reaction": "rxn0293",
+      "rmsd": 0.877517,
+      "success": false,
+      "uncertainty": 0.211393,
+      "inference_time": 0.049544
+    },
+    {
+      "reaction": "rxn0294",
+      "rmsd": 1.220137,
+      "success": false,
+      "uncertainty": 0.156665,
+      "inference_time": 0.027324
+    },
+    {
+      "reaction": "rxn0295",
+      "rmsd": 0.669712,
+      "success": false,
+      "uncertainty": 0.201841,
+      "inference_time": 0.0305
+    },
+    {
+      "reaction": "rxn0296",
+      "rmsd": 1.286585,
+      "success": false,
+      "uncertainty": 0.165017,
+      "inference_time": 0.052785
+    },
+    {
+      "reaction": "rxn0297",
+      "rmsd": 0.363611,
+      "success": true,
+      "uncertainty": 0.223743,
+      "inference_time": 0.03429
+    },
+    {
+      "reaction": "rxn0298",
+      "rmsd": 0.317446,
+      "success": true,
+      "uncertainty": 0.201222,
+      "inference_time": 0.064728
+    },
+    {
+      "reaction": "rxn0299",
+      "rmsd": 0.634222,
+      "success": false,
+      "uncertainty": 0.218023,
+      "inference_time": 0.073263
+    },
+    {
+      "reaction": "rxn0300",
+      "rmsd": 0.76283,
+      "success": false,
+      "uncertainty": 0.154167,
+      "inference_time": 0.081041
+    },
+    {
+      "reaction": "rxn0301",
+      "rmsd": 0.640338,
+      "success": false,
+      "uncertainty": 0.158479,
+      "inference_time": 0.039011
+    },
+    {
+      "reaction": "rxn0302",
+      "rmsd": 0.272436,
+      "success": true,
+      "uncertainty": 0.221632,
+      "inference_time": 0.036724
+    },
+    {
+      "reaction": "rxn0303",
+      "rmsd": 0.625342,
+      "success": false,
+      "uncertainty": 0.157208,
+      "inference_time": 0.03232
+    },
+    {
+      "reaction": "rxn0304",
+      "rmsd": 0.375347,
+      "success": true,
+      "uncertainty": 0.157126,
+      "inference_time": 0.06955
+    },
+    {
+      "reaction": "rxn0305",
+      "rmsd": 0.86005,
+      "success": false,
+      "uncertainty": 0.151211,
+      "inference_time": 0.074453
+    },
+    {
+      "reaction": "rxn0306",
+      "rmsd": 0.757255,
+      "success": false,
+      "uncertainty": 0.24565,
+      "inference_time": 0.027211
+    },
+    {
+      "reaction": "rxn0307",
+      "rmsd": 0.437457,
+      "success": true,
+      "uncertainty": 0.223751,
+      "inference_time": 0.090535
+    },
+    {
+      "reaction": "rxn0308",
+      "rmsd": 0.523169,
+      "success": false,
+      "uncertainty": 0.185325,
+      "inference_time": 0.028638
+    },
+    {
+      "reaction": "rxn0309",
+      "rmsd": 0.416072,
+      "success": true,
+      "uncertainty": 0.179654,
+      "inference_time": 0.062891
+    },
+    {
+      "reaction": "rxn0310",
+      "rmsd": 0.632325,
+      "success": false,
+      "uncertainty": 0.18497,
+      "inference_time": 0.074634
+    },
+    {
+      "reaction": "rxn0311",
+      "rmsd": 0.969604,
+      "success": false,
+      "uncertainty": 0.227465,
+      "inference_time": 0.085968
+    },
+    {
+      "reaction": "rxn0312",
+      "rmsd": 0.429114,
+      "success": true,
+      "uncertainty": 0.216137,
+      "inference_time": 0.074986
+    },
+    {
+      "reaction": "rxn0313",
+      "rmsd": 0.802256,
+      "success": false,
+      "uncertainty": 0.16852,
+      "inference_time": 0.081121
+    },
+    {
+      "reaction": "rxn0314",
+      "rmsd": 0.51958,
+      "success": false,
+      "uncertainty": 0.167411,
+      "inference_time": 0.048762
+    },
+    {
+      "reaction": "rxn0315",
+      "rmsd": 0.465318,
+      "success": true,
+      "uncertainty": 0.15984,
+      "inference_time": 0.082038
+    },
+    {
+      "reaction": "rxn0316",
+      "rmsd": 0.620655,
+      "success": false,
+      "uncertainty": 0.21603,
+      "inference_time": 0.030608
+    },
+    {
+      "reaction": "rxn0317",
+      "rmsd": 0.420282,
+      "success": true,
+      "uncertainty": 0.226437,
+      "inference_time": 0.087637
+    },
+    {
+      "reaction": "rxn0318",
+      "rmsd": 0.5145,
+      "success": false,
+      "uncertainty": 0.176505,
+      "inference_time": 0.063331
+    },
+    {
+      "reaction": "rxn0319",
+      "rmsd": 0.392533,
+      "success": true,
+      "uncertainty": 0.152094,
+      "inference_time": 0.082211
+    },
+    {
+      "reaction": "rxn0320",
+      "rmsd": 1.481652,
+      "success": false,
+      "uncertainty": 0.158217,
+      "inference_time": 0.056662
+    },
+    {
+      "reaction": "rxn0321",
+      "rmsd": 0.658878,
+      "success": false,
+      "uncertainty": 0.246786,
+      "inference_time": 0.07005
+    },
+    {
+      "reaction": "rxn0322",
+      "rmsd": 0.483883,
+      "success": true,
+      "uncertainty": 0.179544,
+      "inference_time": 0.061848
+    },
+    {
+      "reaction": "rxn0323",
+      "rmsd": 0.710238,
+      "success": false,
+      "uncertainty": 0.226922,
+      "inference_time": 0.076211
+    },
+    {
+      "reaction": "rxn0324",
+      "rmsd": 0.619276,
+      "success": false,
+      "uncertainty": 0.212466,
+      "inference_time": 0.030714
+    },
+    {
+      "reaction": "rxn0325",
+      "rmsd": 0.591653,
+      "success": false,
+      "uncertainty": 0.188194,
+      "inference_time": 0.029225
+    },
+    {
+      "reaction": "rxn0326",
+      "rmsd": 0.840232,
+      "success": false,
+      "uncertainty": 0.170569,
+      "inference_time": 0.042297
+    },
+    {
+      "reaction": "rxn0327",
+      "rmsd": 0.892371,
+      "success": false,
+      "uncertainty": 0.162139,
+      "inference_time": 0.036168
+    },
+    {
+      "reaction": "rxn0328",
+      "rmsd": 0.519527,
+      "success": false,
+      "uncertainty": 0.211501,
+      "inference_time": 0.086025
+    },
+    {
+      "reaction": "rxn0329",
+      "rmsd": 0.509732,
+      "success": false,
+      "uncertainty": 0.227463,
+      "inference_time": 0.040345
+    },
+    {
+      "reaction": "rxn0330",
+      "rmsd": 0.578366,
+      "success": false,
+      "uncertainty": 0.21439,
+      "inference_time": 0.093311
+    },
+    {
+      "reaction": "rxn0331",
+      "rmsd": 0.246885,
+      "success": true,
+      "uncertainty": 0.20303,
+      "inference_time": 0.048583
+    },
+    {
+      "reaction": "rxn0332",
+      "rmsd": 0.343555,
+      "success": true,
+      "uncertainty": 0.154195,
+      "inference_time": 0.037748
+    },
+    {
+      "reaction": "rxn0333",
+      "rmsd": 1.152646,
+      "success": false,
+      "uncertainty": 0.246849,
+      "inference_time": 0.080279
+    },
+    {
+      "reaction": "rxn0334",
+      "rmsd": 1.295452,
+      "success": false,
+      "uncertainty": 0.229871,
+      "inference_time": 0.07111
+    },
+    {
+      "reaction": "rxn0335",
+      "rmsd": 0.58472,
+      "success": false,
+      "uncertainty": 0.179282,
+      "inference_time": 0.059874
+    },
+    {
+      "reaction": "rxn0336",
+      "rmsd": 0.827064,
+      "success": false,
+      "uncertainty": 0.247997,
+      "inference_time": 0.063875
+    },
+    {
+      "reaction": "rxn0337",
+      "rmsd": 0.739854,
+      "success": false,
+      "uncertainty": 0.210188,
+      "inference_time": 0.075344
+    },
+    {
+      "reaction": "rxn0338",
+      "rmsd": 2.365769,
+      "success": false,
+      "uncertainty": 0.208242,
+      "inference_time": 0.040992
+    },
+    {
+      "reaction": "rxn0339",
+      "rmsd": 1.038933,
+      "success": false,
+      "uncertainty": 0.224807,
+      "inference_time": 0.094743
+    },
+    {
+      "reaction": "rxn0340",
+      "rmsd": 0.615234,
+      "success": false,
+      "uncertainty": 0.231177,
+      "inference_time": 0.093236
+    },
+    {
+      "reaction": "rxn0341",
+      "rmsd": 0.434589,
+      "success": true,
+      "uncertainty": 0.215648,
+      "inference_time": 0.070523
+    },
+    {
+      "reaction": "rxn0342",
+      "rmsd": 0.330637,
+      "success": true,
+      "uncertainty": 0.16281,
+      "inference_time": 0.038968
+    },
+    {
+      "reaction": "rxn0343",
+      "rmsd": 0.707108,
+      "success": false,
+      "uncertainty": 0.183827,
+      "inference_time": 0.072616
+    },
+    {
+      "reaction": "rxn0344",
+      "rmsd": 0.472511,
+      "success": true,
+      "uncertainty": 0.242808,
+      "inference_time": 0.030054
+    },
+    {
+      "reaction": "rxn0345",
+      "rmsd": 0.357231,
+      "success": true,
+      "uncertainty": 0.172462,
+      "inference_time": 0.027146
+    },
+    {
+      "reaction": "rxn0346",
+      "rmsd": 0.494807,
+      "success": true,
+      "uncertainty": 0.187217,
+      "inference_time": 0.043038
+    },
+    {
+      "reaction": "rxn0347",
+      "rmsd": 0.412187,
+      "success": true,
+      "uncertainty": 0.193208,
+      "inference_time": 0.057384
+    },
+    {
+      "reaction": "rxn0348",
+      "rmsd": 1.318603,
+      "success": false,
+      "uncertainty": 0.19394,
+      "inference_time": 0.085779
+    },
+    {
+      "reaction": "rxn0349",
+      "rmsd": 0.940129,
+      "success": false,
+      "uncertainty": 0.211294,
+      "inference_time": 0.075902
+    },
+    {
+      "reaction": "rxn0350",
+      "rmsd": 0.647022,
+      "success": false,
+      "uncertainty": 0.244308,
+      "inference_time": 0.076989
+    },
+    {
+      "reaction": "rxn0351",
+      "rmsd": 1.208705,
+      "success": false,
+      "uncertainty": 0.174069,
+      "inference_time": 0.054785
+    },
+    {
+      "reaction": "rxn0352",
+      "rmsd": 0.670634,
+      "success": false,
+      "uncertainty": 0.16215,
+      "inference_time": 0.049215
+    },
+    {
+      "reaction": "rxn0353",
+      "rmsd": 0.452139,
+      "success": true,
+      "uncertainty": 0.169747,
+      "inference_time": 0.050973
+    },
+    {
+      "reaction": "rxn0354",
+      "rmsd": 1.230826,
+      "success": false,
+      "uncertainty": 0.238692,
+      "inference_time": 0.094135
+    },
+    {
+      "reaction": "rxn0355",
+      "rmsd": 0.81409,
+      "success": false,
+      "uncertainty": 0.214581,
+      "inference_time": 0.027808
+    },
+    {
+      "reaction": "rxn0356",
+      "rmsd": 0.419929,
+      "success": true,
+      "uncertainty": 0.178591,
+      "inference_time": 0.085692
+    },
+    {
+      "reaction": "rxn0357",
+      "rmsd": 0.599314,
+      "success": false,
+      "uncertainty": 0.231595,
+      "inference_time": 0.065507
+    },
+    {
+      "reaction": "rxn0358",
+      "rmsd": 0.449425,
+      "success": true,
+      "uncertainty": 0.236137,
+      "inference_time": 0.055703
+    },
+    {
+      "reaction": "rxn0359",
+      "rmsd": 0.3632,
+      "success": true,
+      "uncertainty": 0.234651,
+      "inference_time": 0.075768
+    },
+    {
+      "reaction": "rxn0360",
+      "rmsd": 0.95788,
+      "success": false,
+      "uncertainty": 0.241893,
+      "inference_time": 0.059067
+    },
+    {
+      "reaction": "rxn0361",
+      "rmsd": 1.44763,
+      "success": false,
+      "uncertainty": 0.175224,
+      "inference_time": 0.08614
+    },
+    {
+      "reaction": "rxn0362",
+      "rmsd": 0.360802,
+      "success": true,
+      "uncertainty": 0.225504,
+      "inference_time": 0.088049
+    },
+    {
+      "reaction": "rxn0363",
+      "rmsd": 0.822358,
+      "success": false,
+      "uncertainty": 0.196054,
+      "inference_time": 0.05452
+    },
+    {
+      "reaction": "rxn0364",
+      "rmsd": 0.493962,
+      "success": true,
+      "uncertainty": 0.2342,
+      "inference_time": 0.044378
+    },
+    {
+      "reaction": "rxn0365",
+      "rmsd": 0.529078,
+      "success": false,
+      "uncertainty": 0.222849,
+      "inference_time": 0.066465
+    },
+    {
+      "reaction": "rxn0366",
+      "rmsd": 0.506195,
+      "success": false,
+      "uncertainty": 0.227645,
+      "inference_time": 0.088865
+    },
+    {
+      "reaction": "rxn0367",
+      "rmsd": 0.451625,
+      "success": true,
+      "uncertainty": 0.215616,
+      "inference_time": 0.039746
+    },
+    {
+      "reaction": "rxn0368",
+      "rmsd": 0.662558,
+      "success": false,
+      "uncertainty": 0.167743,
+      "inference_time": 0.068608
+    },
+    {
+      "reaction": "rxn0369",
+      "rmsd": 0.457936,
+      "success": true,
+      "uncertainty": 0.204503,
+      "inference_time": 0.069209
+    },
+    {
+      "reaction": "rxn0370",
+      "rmsd": 0.727286,
+      "success": false,
+      "uncertainty": 0.248467,
+      "inference_time": 0.076318
+    },
+    {
+      "reaction": "rxn0371",
+      "rmsd": 0.635637,
+      "success": false,
+      "uncertainty": 0.243739,
+      "inference_time": 0.03421
+    },
+    {
+      "reaction": "rxn0372",
+      "rmsd": 0.587203,
+      "success": false,
+      "uncertainty": 0.154317,
+      "inference_time": 0.075108
+    },
+    {
+      "reaction": "rxn0373",
+      "rmsd": 0.443435,
+      "success": true,
+      "uncertainty": 0.166481,
+      "inference_time": 0.088632
+    },
+    {
+      "reaction": "rxn0374",
+      "rmsd": 0.509528,
+      "success": false,
+      "uncertainty": 0.163173,
+      "inference_time": 0.037578
+    },
+    {
+      "reaction": "rxn0375",
+      "rmsd": 0.891578,
+      "success": false,
+      "uncertainty": 0.222598,
+      "inference_time": 0.041628
+    },
+    {
+      "reaction": "rxn0376",
+      "rmsd": 0.801202,
+      "success": false,
+      "uncertainty": 0.231779,
+      "inference_time": 0.092998
+    },
+    {
+      "reaction": "rxn0377",
+      "rmsd": 0.430589,
+      "success": true,
+      "uncertainty": 0.171351,
+      "inference_time": 0.037668
+    },
+    {
+      "reaction": "rxn0378",
+      "rmsd": 0.676849,
+      "success": false,
+      "uncertainty": 0.200585,
+      "inference_time": 0.084807
+    },
+    {
+      "reaction": "rxn0379",
+      "rmsd": 0.89008,
+      "success": false,
+      "uncertainty": 0.23407,
+      "inference_time": 0.059459
+    },
+    {
+      "reaction": "rxn0380",
+      "rmsd": 0.322009,
+      "success": true,
+      "uncertainty": 0.22328,
+      "inference_time": 0.042306
+    },
+    {
+      "reaction": "rxn0381",
+      "rmsd": 0.815613,
+      "success": false,
+      "uncertainty": 0.204224,
+      "inference_time": 0.085952
+    },
+    {
+      "reaction": "rxn0382",
+      "rmsd": 0.491483,
+      "success": true,
+      "uncertainty": 0.209035,
+      "inference_time": 0.056171
+    },
+    {
+      "reaction": "rxn0383",
+      "rmsd": 0.824997,
+      "success": false,
+      "uncertainty": 0.200836,
+      "inference_time": 0.061037
+    },
+    {
+      "reaction": "rxn0384",
+      "rmsd": 0.471142,
+      "success": true,
+      "uncertainty": 0.179755,
+      "inference_time": 0.050146
+    },
+    {
+      "reaction": "rxn0385",
+      "rmsd": 0.304198,
+      "success": true,
+      "uncertainty": 0.206502,
+      "inference_time": 0.066507
+    },
+    {
+      "reaction": "rxn0386",
+      "rmsd": 0.32772,
+      "success": true,
+      "uncertainty": 0.218889,
+      "inference_time": 0.036447
+    },
+    {
+      "reaction": "rxn0387",
+      "rmsd": 0.662436,
+      "success": false,
+      "uncertainty": 0.237332,
+      "inference_time": 0.052376
+    },
+    {
+      "reaction": "rxn0388",
+      "rmsd": 0.724015,
+      "success": false,
+      "uncertainty": 0.213629,
+      "inference_time": 0.092859
+    },
+    {
+      "reaction": "rxn0389",
+      "rmsd": 0.44404,
+      "success": true,
+      "uncertainty": 0.226112,
+      "inference_time": 0.043069
+    },
+    {
+      "reaction": "rxn0390",
+      "rmsd": 0.848896,
+      "success": false,
+      "uncertainty": 0.166007,
+      "inference_time": 0.070972
+    },
+    {
+      "reaction": "rxn0391",
+      "rmsd": 0.323077,
+      "success": true,
+      "uncertainty": 0.196156,
+      "inference_time": 0.047763
+    },
+    {
+      "reaction": "rxn0392",
+      "rmsd": 0.631422,
+      "success": false,
+      "uncertainty": 0.150933,
+      "inference_time": 0.079143
+    },
+    {
+      "reaction": "rxn0393",
+      "rmsd": 0.390373,
+      "success": true,
+      "uncertainty": 0.174668,
+      "inference_time": 0.034161
+    },
+    {
+      "reaction": "rxn0394",
+      "rmsd": 0.493714,
+      "success": true,
+      "uncertainty": 0.222646,
+      "inference_time": 0.092887
+    },
+    {
+      "reaction": "rxn0395",
+      "rmsd": 0.662245,
+      "success": false,
+      "uncertainty": 0.249181,
+      "inference_time": 0.056765
+    },
+    {
+      "reaction": "rxn0396",
+      "rmsd": 0.452304,
+      "success": true,
+      "uncertainty": 0.159918,
+      "inference_time": 0.041524
+    },
+    {
+      "reaction": "rxn0397",
+      "rmsd": 0.552368,
+      "success": false,
+      "uncertainty": 0.190149,
+      "inference_time": 0.030145
+    },
+    {
+      "reaction": "rxn0398",
+      "rmsd": 0.99066,
+      "success": false,
+      "uncertainty": 0.230007,
+      "inference_time": 0.036883
+    },
+    {
+      "reaction": "rxn0399",
+      "rmsd": 0.509502,
+      "success": false,
+      "uncertainty": 0.170404,
+      "inference_time": 0.061384
+    },
+    {
+      "reaction": "rxn0400",
+      "rmsd": 0.92216,
+      "success": false,
+      "uncertainty": 0.205508,
+      "inference_time": 0.04859
+    },
+    {
+      "reaction": "rxn0401",
+      "rmsd": 0.403934,
+      "success": true,
+      "uncertainty": 0.223307,
+      "inference_time": 0.083022
+    },
+    {
+      "reaction": "rxn0402",
+      "rmsd": 0.810982,
+      "success": false,
+      "uncertainty": 0.211599,
+      "inference_time": 0.055162
+    },
+    {
+      "reaction": "rxn0403",
+      "rmsd": 1.18938,
+      "success": false,
+      "uncertainty": 0.168802,
+      "inference_time": 0.04241
+    },
+    {
+      "reaction": "rxn0404",
+      "rmsd": 0.229898,
+      "success": true,
+      "uncertainty": 0.185538,
+      "inference_time": 0.0682
+    },
+    {
+      "reaction": "rxn0405",
+      "rmsd": 0.464533,
+      "success": true,
+      "uncertainty": 0.228379,
+      "inference_time": 0.074474
+    },
+    {
+      "reaction": "rxn0406",
+      "rmsd": 0.827243,
+      "success": false,
+      "uncertainty": 0.205423,
+      "inference_time": 0.036693
+    },
+    {
+      "reaction": "rxn0407",
+      "rmsd": 0.596124,
+      "success": false,
+      "uncertainty": 0.150523,
+      "inference_time": 0.036733
+    },
+    {
+      "reaction": "rxn0408",
+      "rmsd": 0.758702,
+      "success": false,
+      "uncertainty": 0.226099,
+      "inference_time": 0.027567
+    },
+    {
+      "reaction": "rxn0409",
+      "rmsd": 0.503737,
+      "success": false,
+      "uncertainty": 0.153531,
+      "inference_time": 0.076548
+    },
+    {
+      "reaction": "rxn0410",
+      "rmsd": 0.673236,
+      "success": false,
+      "uncertainty": 0.224573,
+      "inference_time": 0.071466
+    },
+    {
+      "reaction": "rxn0411",
+      "rmsd": 0.608103,
+      "success": false,
+      "uncertainty": 0.170248,
+      "inference_time": 0.058224
+    },
+    {
+      "reaction": "rxn0412",
+      "rmsd": 1.060183,
+      "success": false,
+      "uncertainty": 0.245807,
+      "inference_time": 0.084092
+    },
+    {
+      "reaction": "rxn0413",
+      "rmsd": 0.722404,
+      "success": false,
+      "uncertainty": 0.186794,
+      "inference_time": 0.081397
+    },
+    {
+      "reaction": "rxn0414",
+      "rmsd": 0.748089,
+      "success": false,
+      "uncertainty": 0.182693,
+      "inference_time": 0.065975
+    },
+    {
+      "reaction": "rxn0415",
+      "rmsd": 0.546066,
+      "success": false,
+      "uncertainty": 0.164889,
+      "inference_time": 0.085779
+    },
+    {
+      "reaction": "rxn0416",
+      "rmsd": 0.528971,
+      "success": false,
+      "uncertainty": 0.18056,
+      "inference_time": 0.039409
+    },
+    {
+      "reaction": "rxn0417",
+      "rmsd": 0.541343,
+      "success": false,
+      "uncertainty": 0.237665,
+      "inference_time": 0.032834
+    },
+    {
+      "reaction": "rxn0418",
+      "rmsd": 0.766166,
+      "success": false,
+      "uncertainty": 0.249633,
+      "inference_time": 0.043882
+    },
+    {
+      "reaction": "rxn0419",
+      "rmsd": 0.543981,
+      "success": false,
+      "uncertainty": 0.186831,
+      "inference_time": 0.028996
+    },
+    {
+      "reaction": "rxn0420",
+      "rmsd": 0.733211,
+      "success": false,
+      "uncertainty": 0.194861,
+      "inference_time": 0.062182
+    },
+    {
+      "reaction": "rxn0421",
+      "rmsd": 1.55215,
+      "success": false,
+      "uncertainty": 0.222207,
+      "inference_time": 0.090562
+    },
+    {
+      "reaction": "rxn0422",
+      "rmsd": 0.935986,
+      "success": false,
+      "uncertainty": 0.23862,
+      "inference_time": 0.027754
+    },
+    {
+      "reaction": "rxn0423",
+      "rmsd": 0.566116,
+      "success": false,
+      "uncertainty": 0.209304,
+      "inference_time": 0.033548
+    },
+    {
+      "reaction": "rxn0424",
+      "rmsd": 1.075174,
+      "success": false,
+      "uncertainty": 0.189153,
+      "inference_time": 0.056654
+    },
+    {
+      "reaction": "rxn0425",
+      "rmsd": 0.546939,
+      "success": false,
+      "uncertainty": 0.191262,
+      "inference_time": 0.090371
+    },
+    {
+      "reaction": "rxn0426",
+      "rmsd": 0.275811,
+      "success": true,
+      "uncertainty": 0.219562,
+      "inference_time": 0.047131
+    },
+    {
+      "reaction": "rxn0427",
+      "rmsd": 0.425103,
+      "success": true,
+      "uncertainty": 0.150322,
+      "inference_time": 0.060506
+    },
+    {
+      "reaction": "rxn0428",
+      "rmsd": 0.295892,
+      "success": true,
+      "uncertainty": 0.211959,
+      "inference_time": 0.02791
+    },
+    {
+      "reaction": "rxn0429",
+      "rmsd": 0.560087,
+      "success": false,
+      "uncertainty": 0.185549,
+      "inference_time": 0.035384
+    },
+    {
+      "reaction": "rxn0430",
+      "rmsd": 0.654233,
+      "success": false,
+      "uncertainty": 0.22942,
+      "inference_time": 0.094064
+    },
+    {
+      "reaction": "rxn0431",
+      "rmsd": 1.312688,
+      "success": false,
+      "uncertainty": 0.159299,
+      "inference_time": 0.092558
+    },
+    {
+      "reaction": "rxn0432",
+      "rmsd": 0.744742,
+      "success": false,
+      "uncertainty": 0.20882,
+      "inference_time": 0.025346
+    },
+    {
+      "reaction": "rxn0433",
+      "rmsd": 0.592118,
+      "success": false,
+      "uncertainty": 0.198097,
+      "inference_time": 0.091627
+    },
+    {
+      "reaction": "rxn0434",
+      "rmsd": 0.919729,
+      "success": false,
+      "uncertainty": 0.214233,
+      "inference_time": 0.069738
+    },
+    {
+      "reaction": "rxn0435",
+      "rmsd": 0.25648,
+      "success": true,
+      "uncertainty": 0.156485,
+      "inference_time": 0.085754
+    },
+    {
+      "reaction": "rxn0436",
+      "rmsd": 0.716721,
+      "success": false,
+      "uncertainty": 0.207998,
+      "inference_time": 0.056832
+    },
+    {
+      "reaction": "rxn0437",
+      "rmsd": 0.897391,
+      "success": false,
+      "uncertainty": 0.206148,
+      "inference_time": 0.061092
+    },
+    {
+      "reaction": "rxn0438",
+      "rmsd": 0.348878,
+      "success": true,
+      "uncertainty": 0.206066,
+      "inference_time": 0.059219
+    },
+    {
+      "reaction": "rxn0439",
+      "rmsd": 1.049538,
+      "success": false,
+      "uncertainty": 0.210349,
+      "inference_time": 0.07168
+    },
+    {
+      "reaction": "rxn0440",
+      "rmsd": 0.748369,
+      "success": false,
+      "uncertainty": 0.217647,
+      "inference_time": 0.034776
+    },
+    {
+      "reaction": "rxn0441",
+      "rmsd": 0.545284,
+      "success": false,
+      "uncertainty": 0.230499,
+      "inference_time": 0.027098
+    },
+    {
+      "reaction": "rxn0442",
+      "rmsd": 0.846827,
+      "success": false,
+      "uncertainty": 0.176982,
+      "inference_time": 0.046555
+    },
+    {
+      "reaction": "rxn0443",
+      "rmsd": 1.684829,
+      "success": false,
+      "uncertainty": 0.232505,
+      "inference_time": 0.074328
+    },
+    {
+      "reaction": "rxn0444",
+      "rmsd": 0.700723,
+      "success": false,
+      "uncertainty": 0.199826,
+      "inference_time": 0.03913
+    },
+    {
+      "reaction": "rxn0445",
+      "rmsd": 0.720526,
+      "success": false,
+      "uncertainty": 0.157706,
+      "inference_time": 0.07214
+    },
+    {
+      "reaction": "rxn0446",
+      "rmsd": 0.535284,
+      "success": false,
+      "uncertainty": 0.155855,
+      "inference_time": 0.092894
+    },
+    {
+      "reaction": "rxn0447",
+      "rmsd": 0.454316,
+      "success": true,
+      "uncertainty": 0.183424,
+      "inference_time": 0.031573
+    },
+    {
+      "reaction": "rxn0448",
+      "rmsd": 0.920088,
+      "success": false,
+      "uncertainty": 0.22849,
+      "inference_time": 0.072082
+    },
+    {
+      "reaction": "rxn0449",
+      "rmsd": 0.453127,
+      "success": true,
+      "uncertainty": 0.220768,
+      "inference_time": 0.056063
+    },
+    {
+      "reaction": "rxn0450",
+      "rmsd": 0.669001,
+      "success": false,
+      "uncertainty": 0.228861,
+      "inference_time": 0.08577
+    },
+    {
+      "reaction": "rxn0451",
+      "rmsd": 0.531186,
+      "success": false,
+      "uncertainty": 0.201727,
+      "inference_time": 0.0374
+    },
+    {
+      "reaction": "rxn0452",
+      "rmsd": 0.793854,
+      "success": false,
+      "uncertainty": 0.19402,
+      "inference_time": 0.073484
+    },
+    {
+      "reaction": "rxn0453",
+      "rmsd": 0.746852,
+      "success": false,
+      "uncertainty": 0.164745,
+      "inference_time": 0.083668
+    },
+    {
+      "reaction": "rxn0454",
+      "rmsd": 1.003747,
+      "success": false,
+      "uncertainty": 0.182819,
+      "inference_time": 0.091123
+    },
+    {
+      "reaction": "rxn0455",
+      "rmsd": 0.524016,
+      "success": false,
+      "uncertainty": 0.193402,
+      "inference_time": 0.072827
+    },
+    {
+      "reaction": "rxn0456",
+      "rmsd": 0.579625,
+      "success": false,
+      "uncertainty": 0.15886,
+      "inference_time": 0.059802
+    },
+    {
+      "reaction": "rxn0457",
+      "rmsd": 0.430371,
+      "success": true,
+      "uncertainty": 0.172061,
+      "inference_time": 0.068249
+    },
+    {
+      "reaction": "rxn0458",
+      "rmsd": 0.538682,
+      "success": false,
+      "uncertainty": 0.209823,
+      "inference_time": 0.085823
+    },
+    {
+      "reaction": "rxn0459",
+      "rmsd": 0.760666,
+      "success": false,
+      "uncertainty": 0.223566,
+      "inference_time": 0.064943
+    },
+    {
+      "reaction": "rxn0460",
+      "rmsd": 0.892176,
+      "success": false,
+      "uncertainty": 0.249835,
+      "inference_time": 0.027127
+    },
+    {
+      "reaction": "rxn0461",
+      "rmsd": 0.440724,
+      "success": true,
+      "uncertainty": 0.243311,
+      "inference_time": 0.090166
+    },
+    {
+      "reaction": "rxn0462",
+      "rmsd": 0.935389,
+      "success": false,
+      "uncertainty": 0.214257,
+      "inference_time": 0.073267
+    },
+    {
+      "reaction": "rxn0463",
+      "rmsd": 1.147219,
+      "success": false,
+      "uncertainty": 0.192125,
+      "inference_time": 0.072356
+    },
+    {
+      "reaction": "rxn0464",
+      "rmsd": 0.772298,
+      "success": false,
+      "uncertainty": 0.213618,
+      "inference_time": 0.040097
+    },
+    {
+      "reaction": "rxn0465",
+      "rmsd": 1.427932,
+      "success": false,
+      "uncertainty": 0.228565,
+      "inference_time": 0.071122
+    },
+    {
+      "reaction": "rxn0466",
+      "rmsd": 0.469063,
+      "success": true,
+      "uncertainty": 0.161834,
+      "inference_time": 0.052571
+    },
+    {
+      "reaction": "rxn0467",
+      "rmsd": 0.384896,
+      "success": true,
+      "uncertainty": 0.19099,
+      "inference_time": 0.070586
+    },
+    {
+      "reaction": "rxn0468",
+      "rmsd": 0.307559,
+      "success": true,
+      "uncertainty": 0.23398,
+      "inference_time": 0.032462
+    },
+    {
+      "reaction": "rxn0469",
+      "rmsd": 1.216906,
+      "success": false,
+      "uncertainty": 0.188383,
+      "inference_time": 0.071049
+    },
+    {
+      "reaction": "rxn0470",
+      "rmsd": 0.854539,
+      "success": false,
+      "uncertainty": 0.207187,
+      "inference_time": 0.094959
+    },
+    {
+      "reaction": "rxn0471",
+      "rmsd": 0.634212,
+      "success": false,
+      "uncertainty": 0.208777,
+      "inference_time": 0.028375
+    },
+    {
+      "reaction": "rxn0472",
+      "rmsd": 0.730198,
+      "success": false,
+      "uncertainty": 0.168448,
+      "inference_time": 0.093402
+    },
+    {
+      "reaction": "rxn0473",
+      "rmsd": 0.40465,
+      "success": true,
+      "uncertainty": 0.186224,
+      "inference_time": 0.053484
+    },
+    {
+      "reaction": "rxn0474",
+      "rmsd": 1.813373,
+      "success": false,
+      "uncertainty": 0.183451,
+      "inference_time": 0.085953
+    },
+    {
+      "reaction": "rxn0475",
+      "rmsd": 0.685399,
+      "success": false,
+      "uncertainty": 0.15262,
+      "inference_time": 0.079767
+    },
+    {
+      "reaction": "rxn0476",
+      "rmsd": 0.679715,
+      "success": false,
+      "uncertainty": 0.152419,
+      "inference_time": 0.064691
+    },
+    {
+      "reaction": "rxn0477",
+      "rmsd": 0.880553,
+      "success": false,
+      "uncertainty": 0.23317,
+      "inference_time": 0.076691
+    },
+    {
+      "reaction": "rxn0478",
+      "rmsd": 0.794531,
+      "success": false,
+      "uncertainty": 0.177307,
+      "inference_time": 0.086496
+    },
+    {
+      "reaction": "rxn0479",
+      "rmsd": 0.713198,
+      "success": false,
+      "uncertainty": 0.201808,
+      "inference_time": 0.05329
+    },
+    {
+      "reaction": "rxn0480",
+      "rmsd": 0.465787,
+      "success": true,
+      "uncertainty": 0.179873,
+      "inference_time": 0.047892
+    },
+    {
+      "reaction": "rxn0481",
+      "rmsd": 0.791354,
+      "success": false,
+      "uncertainty": 0.244068,
+      "inference_time": 0.071732
+    },
+    {
+      "reaction": "rxn0482",
+      "rmsd": 1.431071,
+      "success": false,
+      "uncertainty": 0.17593,
+      "inference_time": 0.081549
+    },
+    {
+      "reaction": "rxn0483",
+      "rmsd": 1.142306,
+      "success": false,
+      "uncertainty": 0.192966,
+      "inference_time": 0.07836
+    },
+    {
+      "reaction": "rxn0484",
+      "rmsd": 1.267582,
+      "success": false,
+      "uncertainty": 0.237273,
+      "inference_time": 0.080847
+    },
+    {
+      "reaction": "rxn0485",
+      "rmsd": 0.523752,
+      "success": false,
+      "uncertainty": 0.234193,
+      "inference_time": 0.055491
+    },
+    {
+      "reaction": "rxn0486",
+      "rmsd": 0.428416,
+      "success": true,
+      "uncertainty": 0.16861,
+      "inference_time": 0.082248
+    },
+    {
+      "reaction": "rxn0487",
+      "rmsd": 0.615785,
+      "success": false,
+      "uncertainty": 0.230264,
+      "inference_time": 0.033415
+    },
+    {
+      "reaction": "rxn0488",
+      "rmsd": 0.664565,
+      "success": false,
+      "uncertainty": 0.195819,
+      "inference_time": 0.063114
+    },
+    {
+      "reaction": "rxn0489",
+      "rmsd": 1.027916,
+      "success": false,
+      "uncertainty": 0.198297,
+      "inference_time": 0.025403
+    },
+    {
+      "reaction": "rxn0490",
+      "rmsd": 0.318905,
+      "success": true,
+      "uncertainty": 0.163348,
+      "inference_time": 0.047721
+    },
+    {
+      "reaction": "rxn0491",
+      "rmsd": 1.234152,
+      "success": false,
+      "uncertainty": 0.15806,
+      "inference_time": 0.050652
+    },
+    {
+      "reaction": "rxn0492",
+      "rmsd": 0.607508,
+      "success": false,
+      "uncertainty": 0.222794,
+      "inference_time": 0.052732
+    },
+    {
+      "reaction": "rxn0493",
+      "rmsd": 0.542636,
+      "success": false,
+      "uncertainty": 0.199646,
+      "inference_time": 0.073683
+    },
+    {
+      "reaction": "rxn0494",
+      "rmsd": 0.424386,
+      "success": true,
+      "uncertainty": 0.193685,
+      "inference_time": 0.052199
+    },
+    {
+      "reaction": "rxn0495",
+      "rmsd": 0.323982,
+      "success": true,
+      "uncertainty": 0.222951,
+      "inference_time": 0.056409
+    },
+    {
+      "reaction": "rxn0496",
+      "rmsd": 0.917323,
+      "success": false,
+      "uncertainty": 0.226551,
+      "inference_time": 0.041628
+    },
+    {
+      "reaction": "rxn0497",
+      "rmsd": 0.669494,
+      "success": false,
+      "uncertainty": 0.165891,
+      "inference_time": 0.051128
+    },
+    {
+      "reaction": "rxn0498",
+      "rmsd": 0.377641,
+      "success": true,
+      "uncertainty": 0.211023,
+      "inference_time": 0.040909
+    },
+    {
+      "reaction": "rxn0499",
+      "rmsd": 0.37683,
+      "success": true,
+      "uncertainty": 0.163535,
+      "inference_time": 0.030124
     }
   ]
 }
