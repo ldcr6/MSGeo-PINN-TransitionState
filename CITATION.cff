@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "MSGeo-PINN-TransitionState"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - given-names: "ldcr6"
+    orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
+repository-code: "https://github.com/ldcr6/MSGeo-PINN-TransitionState"
+abstract: "Multi-Scale Geometric Physics-Informed Neural Network for Transition State Structure Prediction"
+keywords:
+  - transition state prediction
+  - graph neural network
+  - molecular geometry
+  - deep learning
+  - computational chemistry
+  - physics-informed neural network
+license: MIT
+version: "1.0.0"
+date-released: "2025-10-01"

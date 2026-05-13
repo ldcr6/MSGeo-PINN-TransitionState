@@ -1,0 +1,29 @@
+# 配置文件
+data:
+  # Transition1x HDF5 数据文件路径
+  transition1x_path: "data/transition1x.h5"
+  
+  # 传统XYZ格式数据路径（备用）
+  train_path: "data/train"
+  test_path: "data/test"
+  
+  # 数据集参数
+  max_atoms: 50  # 最大原子数限制
+  use_energy_features: true  # 是否使用能量特征
+  use_forces: false  # 是否使用力信息（Transition1x包含）
+
+model:
+  hidden_dim: 128
+  num_layers: 4
+  dropout: 0.1
+  learning_rate: 0.001
+  batch_size: 32
+  epochs: 100
+
+training:
+  device: "cuda"  # cuda or cpu
+  save_path: "models/best_model.pth"
+  early_stopping_patience: 10
+
+prediction:
+  output_path: "results/predictions"

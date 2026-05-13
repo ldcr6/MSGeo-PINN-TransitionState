@@ -1,0 +1,88 @@
+{
+  "model_path": "models/best_advanced_ts_model.pth",
+  "total_reactions": 10,
+  "valid_predictions": 10,
+  "success_count": 4,
+  "success_rate": 0.4,
+  "avg_rmsd": 0.4827711106955091,
+  "median_rmsd": 0.5180230711888849,
+  "min_rmsd": 0.1883223332280702,
+  "max_rmsd": 0.6660184548764283,
+  "avg_inference_time": 0.06100339889526367,
+  "rmsd_score": 2.297185240598786,
+  "success_score": 12.0,
+  "total_score": 14.297185240598786,
+  "rating": "F (NEEDS IMPROVEMENT)",
+  "detailed_results": [
+    {
+      "reaction": "rxn0000",
+      "rmsd": 0.475684572133779,
+      "success": true,
+      "uncertainty": 0.18123605847358704,
+      "inference_time": 0.2694215774536133
+    },
+    {
+      "reaction": "rxn0001",
+      "rmsd": 0.5082439112785796,
+      "success": false,
+      "uncertainty": 0.18123602867126465,
+      "inference_time": 0.03354167938232422
+    },
+    {
+      "reaction": "rxn0002",
+      "rmsd": 0.574629249232249,
+      "success": false,
+      "uncertainty": 0.18123626708984375,
+      "inference_time": 0.040897369384765625
+    },
+    {
+      "reaction": "rxn0003",
+      "rmsd": 0.6087356510085344,
+      "success": false,
+      "uncertainty": 0.18123626708984375,
+      "inference_time": 0.03670907020568848
+    },
+    {
+      "reaction": "rxn0004",
+      "rmsd": 0.5669556092136744,
+      "success": false,
+      "uncertainty": 0.18123626708984375,
+      "inference_time": 0.04121875762939453
+    },
+    {
+      "reaction": "rxn0005",
+      "rmsd": 0.2845457440717945,
+      "success": true,
+      "uncertainty": 0.18123626708984375,
+      "inference_time": 0.04347825050354004
+    },
+    {
+      "reaction": "rxn0006",
+      "rmsd": 0.5278022310991901,
+      "success": false,
+      "uncertainty": 0.18123626708984375,
+      "inference_time": 0.03208637237548828
+    },
+    {
+      "reaction": "rxn0007",
+      "rmsd": 0.6660184548764283,
+      "success": false,
+      "uncertainty": 0.18123596906661987,
+      "inference_time": 0.03870844841003418
+    },
+    {
+      "reaction": "rxn0008",
+      "rmsd": 0.1883223332280702,
+      "success": true,
+      "uncertainty": 0.18123626708984375,
+      "inference_time": 0.03495383262634277
+    },
+    {
+      "reaction": "rxn0009",
+      "rmsd": 0.4267733508127911,
+      "success": true,
+      "uncertainty": 0.18123626708984375,
+      "inference_time": 0.03901863098144531
+    }
+  ]
+}
