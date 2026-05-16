@@ -57,7 +57,14 @@ Geometric Features (RDF + ADF + SOAP) ─ MLP Encoder ─┘
 
 ### Figures
 
-Training curves and evaluation results are in `results/figures/`.
+![Training Curves](results/figures/training_curves.png)
+*Training loss and metric curves over epochs.*
+
+![Evaluation Results](results/figures/evaluation_results.png)
+*RMSD distribution and success rate on test set.*
+
+![Enhanced Training Results](results/figures/enhanced_training_results.png)
+*Advanced model training with physics-informed constraints.*
 
 ## Installation
 
