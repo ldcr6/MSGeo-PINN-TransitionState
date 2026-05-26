@@ -10,10 +10,10 @@ description = "基于AI的化学反应过渡态结构预测系统"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-    {name = "AI Research Team", email = "research@example.com"}
+    {name = "ldcr6", email = "ldcr6@users.noreply.github.com"}
 ]
 maintainers = [
-    {name = "AI Research Team", email = "research@example.com"}
+    {name = "ldcr6", email = "ldcr6@users.noreply.github.com"}
 ]
 keywords = ["chemistry", "AI", "transition-state", "prediction", "deep-learning"]
 classifiers = [
@@ -72,10 +72,9 @@ all = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/example/ts-prediction"
-Documentation = "https://ts-prediction.readthedocs.io/"
-Repository = "https://github.com/example/ts-prediction.git"
-"Bug Tracker" = "https://github.com/example/ts-prediction/issues"
+Homepage = "https://github.com/ldcr6/MSGeo-PINN-TransitionState"
+Repository = "https://github.com/ldcr6/MSGeo-PINN-TransitionState.git"
+"Bug Tracker" = "https://github.com/ldcr6/MSGeo-PINN-TransitionState/issues"
 
 [project.scripts]
 ts-predict = "src.predict:main"
